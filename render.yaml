@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: bitobe-pptx-parser
+    runtime: docker
+    plan: free
+    healthCheckPath: /health
